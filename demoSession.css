@@ -1,0 +1,15 @@
+.item{
+	padding: 10px;
+	margin: 10px;
+	background-color: #eeeeee;
+	text-align: center;
+	cursor: pointer;
+}
+
+.item:hover{
+	background-color: #cccccc;
+}
+
+.item.selected{
+	font-weight: bold;
+}

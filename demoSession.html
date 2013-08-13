@@ -1,0 +1,19 @@
+<head>
+  <title>demoSession</title>
+</head>
+
+<body>
+  {{> itemList}}
+  <hr/>
+  {{> itemDisplay}}
+</body>
+
+<template name="itemList">
+  {{#each itemList}}
+  	<div class="item {{selected}}">{{text}}</div>
+  {{/each}}
+</template>
+
+<template name="itemDisplay">
+	Vous avez selectionné: {{selectedItem}}
+</template>
